@@ -46,11 +46,11 @@ tenAMtext.val(localStorage.getItem("tenAMevent"));
 elevenAMtext.val(localStorage.getItem("elevenAMevent"));
 twelvePMtext.val(localStorage.getItem("twelvePMevent"));
 onePMtext.val(localStorage.getItem("onePMevent"));
-twoPMtext.val(localStorage.getItem("twoAMevent"));
-threePMtext.val(localStorage.getItem("threeAMevent"));
-fourPMtext.val(localStorage.getItem("fourAMevent"));
-fivePMtext.val(localStorage.getItem("fiveAMevent"));
-sixPMtext.val(localStorage.getItem("sixAMevent"));
+twoPMtext.val(localStorage.getItem("twoPMevent"));
+threePMtext.val(localStorage.getItem("threePMevent"));
+fourPMtext.val(localStorage.getItem("fourPMevent"));
+fivePMtext.val(localStorage.getItem("fivePMevent"));
+sixPMtext.val(localStorage.getItem("sixPMevent"));
 
 
 //  eightAMtext.val(localStorage.getItem(xxx,yyy));
