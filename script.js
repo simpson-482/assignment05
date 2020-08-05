@@ -37,8 +37,7 @@ let sixPMtext = $("#text11");
 // add 11 PM to 5 PM
 
 // example here is hardcodee
-// this is where you have the 10 localStorage.getItem calls
-// eightAMtext.val('hi jared how are you - it is 8AM');
+// 10 localStorage.getItem calls
 
 eightAMtext.val(localStorage.getItem("eightAMevent"));
 nineAMtext.val(localStorage.getItem("nineAMevent"));
@@ -87,8 +86,7 @@ function updateTime() {
     hour = moment().get('hour');
     console.log(hour);
 
-    // hour = 9;  // put here for testing
-    // this is whre you set the colors for the 10 rows
+    // hour = 9;
 
     if (hour == 8) {
         eightAM.css("background-color", '#ff6961');
